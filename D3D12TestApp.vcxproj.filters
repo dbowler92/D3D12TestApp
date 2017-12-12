@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{f2c9d504-f0c5-4e94-8c09-6dfc2d35e60b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\WinMain">
+      <UniqueIdentifier>{62efadd9-86fc-47c7-bcce-2ba3dadb626d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\IScene">
+      <UniqueIdentifier>{06f866f3-c040-4cdc-a471-4b7fed85a715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scenes">
+      <UniqueIdentifier>{336ed6fc-a5d3-4720-bbba-3c1c4648850c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scenes\TestScene">
+      <UniqueIdentifier>{f05f5b7e-981f-4e16-87f2-79a648ec373a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\GameTimer">
+      <UniqueIdentifier>{08482858-4abd-421f-b138-911a1fbcc853}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>Source\WinMain</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>Source\Scenes\TestScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTimer.cpp">
+      <Filter>Source\GameTimer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IScene.h">
+      <Filter>Source\IScene</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>Source\Scenes\TestScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTimer.h">
+      <Filter>Source\GameTimer</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
