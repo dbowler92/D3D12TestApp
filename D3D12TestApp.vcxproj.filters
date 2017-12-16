@@ -19,6 +19,9 @@
     <Filter Include="Source\GameTimer">
       <UniqueIdentifier>{08482858-4abd-421f-b138-911a1fbcc853}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\D3DX12">
+      <UniqueIdentifier>{242bddba-ccbc-45d1-bef9-344a4e775d72}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="WinMain.cpp">
@@ -40,6 +43,9 @@
     </ClInclude>
     <ClInclude Include="GameTimer.h">
       <Filter>Source\GameTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dx12.h">
+      <Filter>Source\D3DX12</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
